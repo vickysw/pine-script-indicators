@@ -27,8 +27,7 @@ Supply/demand zone indicator with pyramid entry logic and HTF confluence filter.
 
 > Distance filter eliminated low-probability setups. T2 rate = 0% below 10 pts threshold — key insight from data.
 
-![S2 Zone Pyramid v3 Backtest](screenshots/s2-zonepyramid-v3-backtest.png)
-![S2 Zone Pyramid v3 Chart](screenshots/s2-zonepyramid-v3-chart.png)
+
 
 ---
 
@@ -47,7 +46,6 @@ Same core logic, re-calibrated for NSE NIFTY 50.
 | No filter | 11 | 64% |
 | dist ≥ 35 pts | 8 | **80%** |
 
-![NIFTY Backtest](screenshots/s2-nifty-backtest.png)
 
 ---
 
@@ -75,6 +73,7 @@ TV Alert (bar close) → EC2 Webhook → FastAPI Parser → Telegram Channel
 Subscribers receive real-time alerts with entry, SL, targets, and lots pre-calculated.
 
 ![Telegram Signal](screenshots/signal-bot-telegram.png)
+![Telegram App Signal](screenshots/signal-bot-telegram-app.png)
 
 **Signal bot repo:** [trading-signal-bot](https://github.com/vickysw/trading-signal-bot)
 
